@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="Chippa-a" fetch="https://github.com/Chippa-a" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/sony/suzu" name="android_device_sony_suzu" remote="Chippa-a" revision="lineage-20" />
+    <project path="device/sony/loire-common" name="android_device_sony_loire-common" remote="Chippa-a" revision="lineage-20" />
+
+    <!-- Kernel -->
+    <project path="kernel/sony/msm8956" name="android_kernel_sony_msm8956" remote="Chippa-a" revision="lineage-20" />
+
+    <!-- Vendor -->
+    <project path="vendor/sony/suzu" name="proprietary_vendor_sony_suzu" remote="Chippa-a" revision="lineage-20" />
+    <project path="vendor/sony/loire-common" name="proprietary_vendor_sony_loire-common" remote="Chippa-a" revision="lineage-20" />
+
+    <!-- Hardware -->
+    <project path="hardware/sony/simdetect" name="android_hardware_sony_simdetect" remote="LineageOS" revision="lineage-20" />
+
+</manifest>
