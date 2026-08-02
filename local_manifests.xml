@@ -3,6 +3,7 @@
 
     <!-- Remotes -->
     <remote name="Chippa-a" fetch="https://github.com/Chippa-a" />
+    <remote name="PurpleVoyager401" fetch="https://github.com/PurpleVoyager401" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
     <!-- Repos -->
@@ -19,5 +20,8 @@
 
     <!-- Hardware -->
     <project path="hardware/sony/simdetect" name="android_hardware_sony_simdetect" remote="LineageOS" revision="lineage-20" />
+
+    <!-- Misc -->
+    <project path="patches" name="patches" remote="PurpleVoyager401" revision="lineage-20" />
 
 </manifest>
